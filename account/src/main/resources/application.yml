@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    #    驱动
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://8.130.162.208:3306/beibei?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    password: chaxy1223
+    username: root
+
+#控制台打印sql
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
